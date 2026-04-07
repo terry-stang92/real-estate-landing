@@ -5,6 +5,8 @@ Elegant real estate landing page built with vanilla HTML, CSS, and JavaScript.
 **Live Demo:** https://terry-stang92.github.io/real-estate-landing/
 
 ## Features
+[Screenshot_6-4-2026_191814_127 0 0 1](https://github.com/user-attachments/assets/5a93a9f1-dfa5-48f5-b3fd-f24ba0544e83)
+
 
 - Responsive mobile-first design with hamburger menu
 - Hero section with real property photography
