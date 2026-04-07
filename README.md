@@ -1,5 +1,3 @@
-﻿# real-estate-landing
-
 # 🏡 Premier Realty — Real Estate Landing Page
 
 Elegant real estate landing page built with vanilla HTML, CSS, and JavaScript.
@@ -20,38 +18,6 @@ Elegant real estate landing page built with vanilla HTML, CSS, and JavaScript.
 
 HTML5 · CSS3 · JavaScript · Intersection Observer API · CSS Grid · Flexbox
 
-## Services I Offer
-
-| Service | Description |
-|---|---|
-| 🏠 Landing Pages | Real estate, gym, restaurant, agency — any business |
-| 📱 Mobile Responsive | Hamburger menu, fluid layouts, all screen sizes |
-| ✅ Form Validation | Contact forms, reservation forms, sign-up forms |
-| 🎨 Dark / Light Mode | CSS variables toggle with localStorage |
-| 🔢 Animated Counters | Stats bars, number animations |
-| ✨ Scroll Animations | Intersection Observer API |
-| 🖼️ Figma to HTML | Convert any design to pixel-perfect HTML/CSS |
-
-## Let's Work Together
-# 🏡 Premier Realty — Real Estate Landing Page
-
-Elegant real estate landing page built with vanilla HTML, CSS, and JavaScript.
-
-**Live Demo:** https://terry-stang92.github.io/real-estate-landing/
-
-## Features
-
-- Responsive mobile-first design with hamburger menu
-- Hero section with real property photography
-- 3 property cards with price, location and details
-- Animated stat counters (homes sold, experience, clients, cities)
-- Contact form with full client-side validation
-- Scroll animations using Intersection Observer API
-- Dark luxury aesthetic with CSS variables
-
-## Built With
-
-HTML5 · CSS3 · JavaScript · Intersection Observer API · CSS Grid · Flexbox
 
 ## Services I Offer
 
@@ -66,9 +32,6 @@ HTML5 · CSS3 · JavaScript · Intersection Observer API · CSS Grid · Flexbox
 | 🖼️ Figma to HTML | Convert any design to pixel-perfect HTML/CSS |
 
 ## Let's Work Together
-
-Available on Upwork → **Fernando T. — Frontend Developer**
-GitHub → **terry-stang92**
 
 Available on Upwork → **Fernando T. — Frontend Developer**
 GitHub → **terry-stang92**
