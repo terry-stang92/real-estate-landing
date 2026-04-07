@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find your dream home with Premier Reality">
+  <title>Premier Reality | Find Your Dream Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-logo">Premier <span>Reality</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#properties">Properties</a></li>
+      <li><a href="#stats">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Luxury Real Estate</p>
+      <h1>Find Your <span>Dream Home</span></h1>
+      <p class="hero-desc">We help families find the perfect home in the best neighborhoods.</p>
+      <a href="#properties" class="btn">View Properties</a>
+    </div>
+  </section>
+
+  <section class="properties" id="properties">
+    <h2 class="section-title">Featured <span>Properties</span></h2>
+    <div class="cards-grid">
+
+      <div class="card reveal">
+        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800" alt="Property 1">
+        <div class="card-info">
+          <p class="card-price">$485,000</p>
+          <p class="card-location">📍 Austin, Texas</p>
+          <p class="card-details">4 beds · 3 baths · 2,400 sqft</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800" alt="Property 2">
+        <div class="card-info">
+          <p class="card-price">$320,000</p>
+          <p class="card-location">📍 Dallas, Texas</p>
+          <p class="card-details">3 beds · 2 baths · 1,800 sqft</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800" alt="Property 3">
+        <div class="card-info">
+          <p class="card-price">$650,000</p>
+          <p class="card-location">📍 Houston, Texas</p>
+          <p class="card-details">5 beds · 4 baths · 3,200 sqft</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- STATS -->
+  <section class="stats" id="stats">
+    <div class="stat reveal">
+      <h3 class="stat-num" data-target="150">0</h3>
+      <p class="stat-label">Homes Sold</p>
+    </div>
+    <div class="stat reveal">
+      <h3 class="stat-num" data-target="10">0</h3>
+      <p class="stat-label">Years Experience</p>
+    </div>
+    <div class="stat reveal">
+      <h3 class="stat-num" data-target="98">0</h3>
+      <p class="stat-label">Happy Clients</p>
+    </div>
+    <div class="stat reveal">
+      <h3 class="stat-num" data-target="25">0</h3>
+      <p class="stat-label">Cities Covered</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" placeholder="Your Name">
+      <span class="error-msg" id="nameError">Please enter your name</span>
+      <input type="email" id="email" placeholder="Your Email">
+      <span class="error-msg" id="emailError">Please enter a valid email</span>
+      <textarea id="message" placeholder="Your Message" rows="5"></textarea>
+      <span class="error-msg" id="messageError">Please enter a message</span>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="success-msg" id="successMsg">✅ Message sent! We'll contact you soon.</div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
